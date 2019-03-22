@@ -6,23 +6,33 @@ import Header from "../Header/Header";
 import Services from "../Services/Services";
 import About from "../About/About";
 
+import "./App.css";
+
 const App = () => {
   return (
     <main>
       <Router>
         <Header>
-          <ul>
-            <li>
-              <Link to="/">Agency Logo</Link>
+          <ul className="headerListContainer">
+            <li className="headerLogo">
+              <Link to="/" className="headerLink">
+                Agency Logo
+              </Link>
             </li>
-            <li>
-              <Link to="/">Home</Link>
+            <li className="headerListItem">
+              <Link to="/" className="headerLink">
+                Home
+              </Link>
             </li>
-            <li>
-              <Link to="/services">Services</Link>
+            <li className="headerListItem">
+              <Link to="/services" className="headerLink">
+                Services
+              </Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li className="headerListItem">
+              <Link to="/about" className="headerLink">
+                About
+              </Link>
             </li>
           </ul>
         </Header>
