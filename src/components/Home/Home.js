@@ -1,5 +1,7 @@
 import React from "react";
 
+import Article from "../Article/Article";
+
 import "./Home.css";
 
 const Home = () => {
@@ -8,45 +10,42 @@ const Home = () => {
       <article className="landing">
         <h1 className="landingHeader">news. quotes. analytics</h1>
       </article>
-      <article className="news">
-        <div className="leftContent">
-          <h1 className="newsHeader">news.</h1>
-        </div>
-        <div className="rightContent">
-          <p className="newsParagraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+      <Article
+        articleClass="homeArticle"
+        imgSrc="/images/news.jpeg"
+        imgName="News"
+        articleHeaderClass="homeArticleHeader"
+        articleHeader="news."
+        articleParagraphClass="homeArticleParagraph"
+        articleParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
             dolores molestiae corrupti facere. Ad amet est quam magnam maxime
             eum rerum debitis maiores ratione? Fugit consequuntur asperiores
-            iste officiis reiciendis?
-          </p>
-        </div>
-      </article>
-      <article className="news">
-        <div className="leftContent">
-          <h1 className="newsHeader">quotes.</h1>
-        </div>
-        <div className="rightContent">
-          <p className="newsParagraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
-            dolores molestiae corrupti facere. Ad amet est quam magnam maxime
-            eum rerum debitis maiores ratione? Fugit consequuntur asperiores
-            iste officiis reiciendis?
-          </p>
-        </div>
-      </article>
-      <article className="news">
-        <div className="leftContent">
-          <h1 className="newsHeader">analytics.</h1>
-        </div>
-        <div className="rightContent">
-          <p className="newsParagraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
-            dolores molestiae corrupti facere. Ad amet est quam magnam maxime
-            eum rerum debitis maiores ratione? Fugit consequuntur asperiores
-            iste officiis reiciendis?
-          </p>
-        </div>
-      </article>
+            iste officiis reiciendis?"
+      />
+      <Article
+        articleClass="homeArticle"
+        imgSrc="/images/quotes.jpg"
+        imgName="quotes"
+        articleHeaderClass="homeArticleHeader"
+        articleHeader="quotes."
+        articleParagraphClass="homeArticleParagraph"
+        articleParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+        dolores molestiae corrupti facere. Ad amet est quam magnam maxime
+        eum rerum debitis maiores ratione? Fugit consequuntur asperiores
+        iste officiis reiciendis?"
+      />
+      <Article
+        articleClass="homeArticle"
+        imgSrc="/images/analytics.jpeg"
+        imgName="analytics"
+        articleHeaderClass="homeArticleHeader"
+        articleHeader="analytics."
+        articleParagraphClass="homeArticleParagraph"
+        articleParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+        dolores molestiae corrupti facere. Ad amet est quam magnam maxime
+        eum rerum debitis maiores ratione? Fugit consequuntur asperiores
+        iste officiis reiciendis?"
+      />
     </section>
   );
 };
