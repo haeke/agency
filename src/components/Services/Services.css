@@ -1,0 +1,30 @@
+.servicesContainer {
+  background: var(--altBrandColor);
+  flex: 1;
+}
+
+.services {
+  display: flex;
+}
+
+.servicesHeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesHeader {
+  display: inline-block;
+  text-align: center;
+  color: var(--brandColor);
+  border-bottom: 1px solid var(--brandColor);
+}
+
+.serviceArticleHeader {
+  color: var(--brandColor);
+  margin: 0 0 10px 0;
+}
+
+.serviceArticleParagraph {
+  color: var(--brandColor);
+}
