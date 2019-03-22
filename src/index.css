@@ -1,3 +1,10 @@
+:root {
+  --brandColor: #292d32;
+  --lightBrandColor: #36454d;
+  --altBrandColor: #c3b4a0;
+  --mainWhite: #f8f8ff;
+}
+
 body {
   margin: 0;
   padding: 0;
