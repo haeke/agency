@@ -15,8 +15,17 @@
   border-bottom: 1px solid var(--brandColor);
 }
 
+.statContainer {
+  display: flex;
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
   .teamHeader {
     font-size: 1.5rem;
+  }
+
+  .statContainer {
+    display: block;
   }
 }

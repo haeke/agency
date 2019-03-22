@@ -1,0 +1,22 @@
+.statCardContainer {
+  background: var(--mainWhite);
+  padding: 20px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.statHeader {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.statDescription {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .statCardContainer {
+    margin: 10px;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import TeamMember from "../TeamMember/TeamMember";
+import StatCard from "../StatCard/StatCard";
 
 import "./Team.css";
 
@@ -29,6 +30,11 @@ const Team = () => {
           teamMemberName="Andrew Alvarez"
           teamMemberDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, culpa!"
         />
+      </div>
+      <div className="statContainer">
+        <StatCard statNumber="322" statDescription="Articles Written" />
+        <StatCard statNumber="1.5 m" statDescription="Quotes Written" />
+        <StatCard statNumber="3.2 m" statDescription="Files Analyzed" />
       </div>
     </article>
   );
