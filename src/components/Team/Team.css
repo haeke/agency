@@ -1,0 +1,22 @@
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.teamHeaderContainer {
+  display: block;
+}
+
+.teamHeader {
+  border-bottom: 1px solid var(--brandColor);
+}
+
+@media only screen and (max-width: 800px) {
+  .teamHeader {
+    font-size: 1.5rem;
+  }
+}

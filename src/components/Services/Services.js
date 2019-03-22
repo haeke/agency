@@ -3,6 +3,7 @@ import React from "react";
 import Article from "../Article/Article";
 
 import "./Services.css";
+import Team from "../Team/Team";
 
 const Services = () => {
   return (
@@ -22,6 +23,7 @@ const Services = () => {
             eum rerum debitis maiores ratione? Fugit consequuntur asperiores
             iste officiis reiciendis?"
       />
+      <Team />
     </section>
   );
 };

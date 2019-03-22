@@ -28,3 +28,17 @@
 .serviceArticleParagraph {
   color: var(--brandColor);
 }
+
+@media only screen and (max-width: 800px) {
+  .services {
+    display: block;
+  }
+
+  .servicesHeader {
+    font-size: 1.5rem;
+  }
+
+  .serviceArticleHeader {
+    font-size: 1.5rem;
+  }
+}

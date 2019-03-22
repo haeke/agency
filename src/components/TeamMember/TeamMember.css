@@ -1,0 +1,42 @@
+.teamMemberContainer {
+  padding: 10px;
+  flex: 1;
+}
+
+.memberImageContainer {
+  margin-top: 10px;
+}
+
+.teamMemberInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamImage {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.teamMemberHeader {
+  color: var(--brandColor);
+  text-align: center;
+}
+
+.teamMemberDescription {
+  color: var(--brandColor);
+  text-align: center;
+}
+
+.teamMembers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .teamMemberHeader {
+    font-size: 1.3rem;
+  }
+}
