@@ -1,3 +1,7 @@
+.mainContainer {
+  flex: 1;
+}
+
 .headerListContainer {
   list-style: none;
   margin: 0;
@@ -6,7 +10,7 @@
 }
 
 .headerLogo {
-  margin: 0 auto 0 0;
+  margin: 0 auto 0 10px;
   list-style: none;
 }
 
@@ -15,7 +19,13 @@
 }
 
 .headerLink {
-  color: var(--mainWhite);
+  color: var(--altBrandColor);
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerLink {
+    font-size: 1rem;
+  }
 }

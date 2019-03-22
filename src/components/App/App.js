@@ -5,12 +5,13 @@ import Home from "../Home/Home";
 import Header from "../Header/Header";
 import Services from "../Services/Services";
 import About from "../About/About";
+import Footer from "../Footer/Footer";
 
 import "./App.css";
 
 const App = () => {
   return (
-    <main>
+    <main className="mainContainer">
       <Router>
         <Header>
           <ul className="headerListContainer">
@@ -41,6 +42,7 @@ const App = () => {
           <Route exact path="/services" component={Services} />
           <Route exact path="/about" component={About} />
         </Switch>
+        <Footer />
       </Router>
     </main>
   );
