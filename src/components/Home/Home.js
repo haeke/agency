@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className="homeContainer">
       <article className="landing">
-        <h1 className="landingHeader">news. quotes. analytics</h1>
+        <h1 className="landingHeader">news. quotes. analytics.</h1>
       </article>
       <Article
         articleClass="homeArticle"
