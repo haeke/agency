@@ -59,6 +59,7 @@
   font-size: 3rem;
   color: var(--altBrandColor);
   border-bottom: 1px solid var(--altBrandColor);
+  margin: 10px 0;
 }
 
 .publications {
