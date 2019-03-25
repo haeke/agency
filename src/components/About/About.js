@@ -36,6 +36,35 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="publicationsContainer">
+        <div className="publications">
+          <div className="publicationsHeader">
+            <h1 className="publicationsHeader">Our Publications</h1>
+          </div>
+          <div className="publicationsParagraphContainer">
+            <div className="publicationParagraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              ducimus, dolorem quam velit, itaque placeat odio architecto
+              exercitationem quae in, sequi reiciendis rem esse quis nobis.
+              Nulla, repudiandae! Officiis ipsum aliquid quidem labore ullam
+              aperiam aliquam fugit. Nemo ex impedit voluptatum? Odio illum rem
+              quod, laboriosam voluptates porro magni quam blanditiis sapiente,
+              necessitatibus nobis modi minus et quaerat eligendi. Unde!
+            </div>
+            <div className="publicationParagraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              distinctio magni ipsum dolore eius excepturi, quo harum ad ut nisi
+              optio. Dolorum quasi dolore suscipit incidunt voluptate cumque
+              aliquid rem eum quia magnam similique exercitationem deleniti, eos
+              veniam repellendus voluptatum accusamus sequi id harum accusantium
+              blanditiis? Numquam natus ipsam, earum mollitia illum eum repellat
+              maxime cumque hic tempore sunt! Ab, iusto, cum nostrum, error ipsa
+              quidem pariatur sint consequatur rerum soluta mollitia voluptas
+              numquam ullam eligendi quaerat? Quasi, distinctio dolorum.
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
