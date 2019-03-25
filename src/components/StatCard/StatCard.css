@@ -2,7 +2,11 @@
   background: var(--mainWhite);
   padding: 20px;
   flex: 1;
-  margin-right: 10px;
+  margin: 10px;
+}
+
+.statCardContainer:hover {
+  box-shadow: 2px 2px 2px gray;
 }
 
 .statHeader {
