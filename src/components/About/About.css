@@ -63,7 +63,6 @@
 }
 
 .publications {
-  border-left: 2px solid var(--altBrandColor);
   display: flex;
   flex-direction: column;
   padding: 20px;

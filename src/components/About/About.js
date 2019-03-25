@@ -1,5 +1,7 @@
 import React from "react";
 
+import ArticleCard from "../ArticleCard/ArticleCard";
+
 import "./About.css";
 
 const About = () => {
@@ -38,21 +40,9 @@ const About = () => {
       </div>
       <div className="publicationsContainer">
         <div className="publications">
-          <div className="publicationsHeader">
-            <h1 className="publicationsHeader">Our Publications</h1>
-          </div>
-          <div className="publicationsParagraphContainer">
-            <div className="publicationParagraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              ducimus, dolorem quam velit, itaque placeat odio architecto
-              exercitationem quae in, sequi reiciendis rem esse quis nobis.
-              Nulla, repudiandae! Officiis ipsum aliquid quidem labore ullam
-              aperiam aliquam fugit. Nemo ex impedit voluptatum? Odio illum rem
-              quod, laboriosam voluptates porro magni quam blanditiis sapiente,
-              necessitatibus nobis modi minus et quaerat eligendi. Unde!
-            </div>
-            <div className="publicationParagraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+          <ArticleCard
+            articleHeader="Our Publications"
+            leftParagraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
               distinctio magni ipsum dolore eius excepturi, quo harum ad ut nisi
               optio. Dolorum quasi dolore suscipit incidunt voluptate cumque
               aliquid rem eum quia magnam similique exercitationem deleniti, eos
@@ -60,9 +50,22 @@ const About = () => {
               blanditiis? Numquam natus ipsam, earum mollitia illum eum repellat
               maxime cumque hic tempore sunt! Ab, iusto, cum nostrum, error ipsa
               quidem pariatur sint consequatur rerum soluta mollitia voluptas
-              numquam ullam eligendi quaerat? Quasi, distinctio dolorum.
-            </div>
-          </div>
+              numquam ullam eligendi quaerat? Quasi, distinctio dolorum."
+            rightParagraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              distinctio magni ipsum dolore eius excepturi, quo harum ad ut nisi
+              optio. Dolorum quasi dolore suscipit incidunt voluptate cumque
+              aliquid rem eum quia magnam similique exercitationem deleniti, eos
+              veniam repellendus voluptatum accusamus sequi id harum accusantium
+              blanditiis? Numquam natus ipsam, earum mollitia illum eum repellat
+              maxime cumque hic tempore sunt! Ab, iusto, cum nostrum, error ipsa
+              quidem pariatur sint consequatur rerum soluta mollitia voluptas
+              numquam ullam eligendi quaerat? Quasi, distinctio dolorum."
+          />
+          <ArticleCard
+            articleHeader="News"
+            leftParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
+            rightParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
+          />
         </div>
       </div>
     </section>

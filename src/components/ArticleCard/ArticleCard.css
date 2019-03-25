@@ -1,0 +1,26 @@
+.articleCardContainer {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid var(--altBrandColor);
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.articleCardHeader {
+  margin: 10px auto;
+  color: var(--altBrandColor);
+}
+
+.article {
+  display: flex;
+  padding: 10px;
+}
+
+.articleParagraph {
+  flex: 1;
+}
+
+.paragraph {
+  color: var(--altBrandColor);
+  text-align: center;
+}
