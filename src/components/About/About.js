@@ -61,11 +61,9 @@ const About = () => {
               quidem pariatur sint consequatur rerum soluta mollitia voluptas
               numquam ullam eligendi quaerat? Quasi, distinctio dolorum."
           />
-          <ArticleCard
-            articleHeader="News"
-            leftParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
-            rightParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
-          />
+          <div className="aboutImage">
+            <img src="/images/publications.jpg" alt="publications" />
+          </div>
         </div>
       </div>
     </section>
@@ -73,3 +71,11 @@ const About = () => {
 };
 
 export default About;
+
+{
+  /* <ArticleCard
+  articleHeader="News"
+  leftParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
+  rightParagraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo eius ut accusamus hic molestiae libero voluptates quae? Sunt distinctio quaerat in velit ducimus alias dolor totam obcaecati, doloremque officia!"
+/> */
+}

@@ -15,7 +15,7 @@ const Article = ({
   return (
     <article className={articleClass}>
       <div className="leftContent">
-        <img src={imgSrc} alt={imgName} style={{ width: "60%" }} />
+        <img src={imgSrc} alt={imgName} style={{ width: "100%" }} />
       </div>
       <div className="rightContent">
         <h1 className={articleHeaderClass}>{articleHeader}</h1>

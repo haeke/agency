@@ -64,10 +64,9 @@
 
 .publications {
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  max-width: 700px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
 }
 
 .publicationsHeader {
@@ -84,11 +83,37 @@
   display: flex;
 }
 
+.aboutImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
+  .aboutHeader {
+    font-size: 1.8rem;
+  }
+
+  .aboutSubHeader {
+    font-size: 1.2rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+  }
   .clientHeader {
     font-size: 1.5rem;
   }
   .publicationsHeader {
     font-size: 1.5rem;
+  }
+
+  .publications {
+    display: block;
+  }
+
+  img {
+    width: 100%;
   }
 }

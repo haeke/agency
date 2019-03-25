@@ -28,7 +28,14 @@
   color: var(--altBrandColor);
 }
 
+.moreNewsContainer {
+  background: var(--lightBrandColor);
+}
+
 @media only screen and (max-width: 900px) {
+  .landingHeader {
+    text-align: center;
+  }
   .homeArticle {
     display: block;
   }

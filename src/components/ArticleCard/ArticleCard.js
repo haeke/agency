@@ -1,18 +1,26 @@
 import React from "react";
 import PropTypes from "prop-types";
+import classnames from "classnames";
 
 import "./ArticleCard.css";
 
-const ArticleCard = ({ articleHeader, leftParagraph, rightParagraph }) => {
+const ArticleCard = ({
+  articleCardStyle,
+  articleHeader,
+  leftParagraph,
+  rightParagraph
+}) => {
   return (
-    <div className="articleCardContainer">
-      <h1 className="articleCardHeader">{articleHeader}</h1>
-      <div className="article">
-        <div className="articleParagraph">
-          <p className="paragraph">{leftParagraph}</p>
-        </div>
-        <div className="articleParagraph">
-          <p className="paragraph">{rightParagraph}</p>
+    <div className={classnames("articleCardContainer", articleCardStyle)}>
+      <div className="articleWrapper">
+        <h1 className="articleCardHeader">{articleHeader}</h1>
+        <div className="article">
+          <div className="articleParagraph">
+            <p className="paragraph">{leftParagraph}</p>
+          </div>
+          <div className="articleParagraph">
+            <p className="paragraph">{rightParagraph}</p>
+          </div>
         </div>
       </div>
     </div>

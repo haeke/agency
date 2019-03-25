@@ -1,6 +1,7 @@
 import React from "react";
 
 import Article from "../Article/Article";
+import ArticleCard from "../ArticleCard/ArticleCard";
 
 import "./Home.css";
 
@@ -12,7 +13,7 @@ const Home = () => {
       </article>
       <Article
         articleClass="homeArticle"
-        imgSrc="/images/news.jpeg"
+        imgSrc="/images/news.jpg"
         imgName="News"
         articleHeaderClass="homeArticleHeader"
         articleHeader="news."
