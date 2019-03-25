@@ -14,6 +14,26 @@ const About = () => {
           </h4>
         </div>
       </div>
+      <div className="clientsContainer">
+        <h4 className="clientHeader">Clients we worked for</h4>
+        <div className="clientLogo">
+          <img
+            src="/images/client4.png"
+            alt="Client 1"
+            style={{ width: "33.33%" }}
+          />
+          <img
+            src="/images/client7.png"
+            alt="Client 1"
+            style={{ width: "33.33%" }}
+          />
+          <img
+            src="/images/client4.png"
+            alt="Client 1"
+            style={{ width: "33.33%" }}
+          />
+        </div>
+      </div>
     </section>
   );
 };
